@@ -27,6 +27,7 @@ public ArrayList<Student> findAll(ArrayList<Student> students, String name) thro
    if (result.isEmpty()) {
        throw new Exception("There is no student with the given name!");
    }
+//asdasda
    return result;
 }
 }
