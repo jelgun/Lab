@@ -5,12 +5,12 @@ public class StudentSearch {
         if (students.isEmpty()) {
             throw new Exception("Students list should not be empty!");
         }
-        for (Student student: students)
+        for (Student student: students)//for statement
             if (student.getId().equals(id))
                 return true;
 
         return false;
-    }
+    }//resolved conflict
 
     public Student findOne(ArrayList<Student> students, String name) throws Exception {
         for (Student student: students)
