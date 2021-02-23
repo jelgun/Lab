@@ -12,7 +12,7 @@ public class StudentSearch {
 
         return false;
     }
-
+    //check
     public Student findOne(ArrayList<Student> students, String name) throws Exception {
         for (Student student: students)
             if (student.getName().equals(name))
@@ -32,5 +32,5 @@ public class StudentSearch {
         }
         return result;
     }
-
+    //check2
 }
