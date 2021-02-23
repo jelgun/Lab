@@ -18,6 +18,7 @@ public Student findOne(ArrayList<Student> students, String name) throws Exceptio
 
    throw new Exception("There is no student with the given name!");
 }
+//just spme new comments
 public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws Exception {
    ArrayList<Student> result = new ArrayList<Student>();
    for (Student student: students)
