@@ -28,6 +28,8 @@ public ArrayList<Student> findAll(ArrayList<Student> students, String name) thro
         if (student.getName().equals(name)) {
             result.add(student);
     }
+
+    // throw exception 
     if (result.isEmpty()) {
         throw new Exception("There is no student with the given name!");
     }
