@@ -24,6 +24,7 @@ Exception {
 ArrayList<Student> result = new ArrayList<Student>();
 for (Student student: students)
 if (student.getName().equals(name)) {
+// adding new student
 result.add(student);
 }
 if (result.isEmpty()) {
@@ -31,5 +32,7 @@ throw new Exception("There is no student with the given name!");
 }
 return result;
 }
+
+//ends
 
 }
