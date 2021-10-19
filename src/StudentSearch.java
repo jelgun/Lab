@@ -23,11 +23,11 @@ public class StudentSearch {
         ArrayList<Student> result = new ArrayList<Student>();
     for (Student student: students)
         if (student.getName().equals(name)) {
-           result.add(student);
+           result.add(student);         //add student to list
         }
         if (result.isEmpty()) {
           throw new Exception("There is no student with the given name!");
-        }
+        }                   //student not found
         return result;
     }
 
