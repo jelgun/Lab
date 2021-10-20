@@ -7,4 +7,10 @@ if (student.getId().equals(id))
 return true;
 return false;
 }
+public Student findOne(ArrayList<Student> students, String name) throws Exception {
+for (Student student: students)
+if (student.getName().equals(name))
+return student;
+throw new Exception("There is no student with the given name!");
+}
 
