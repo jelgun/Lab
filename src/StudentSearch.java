@@ -19,7 +19,7 @@ public class StudentSearch {
 			
 		throw new Exception("There is no student with the given name!");
 	}
-	
+	// comments
 	public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws
 Exception {
 ArrayList<Student> result = new ArrayList<Student>();
