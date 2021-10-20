@@ -12,7 +12,7 @@ public class StudentSearch {
         return false;
     }
 }
-
+// comment 2
 public Student findOne(ArrayList<Student> students, String name) throws Exception {
 for (Student student: students)
 if (student.getName().equals(name))
@@ -29,5 +29,6 @@ result.add(student);
 if (result.isEmpty()) {
 throw new Exception("There is no student with the given name!");
 }
+//comment 1
 return result;
 }
