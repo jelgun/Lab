@@ -11,6 +11,7 @@ public class StudentSearch {
 
         return false;
     }
+    // Comment
     public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws Exception {
         ArrayList<Student> result = new ArrayList<Student>(); for (Student student: students)
         if (student.getName().equals(name)) { result.add(student);
