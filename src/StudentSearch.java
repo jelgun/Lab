@@ -18,7 +18,7 @@ return student;
 throw new Exception("There is no student with the given name!");
 }
 public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws
-Exception {
+Exception { //cenk
 ArrayList<Student> result = new ArrayList<Student>();
 for (Student student: students)
 if (student.getName().equals(name)) {
