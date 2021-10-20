@@ -20,8 +20,9 @@ if (student.getName().equals(name)) { result.add(student);
 if (result.isEmpty()) {
 throw new Exception("There is no student with the given name!");
 }
+//deneme abi
 return result; }
     }
 
-    
+
 }
