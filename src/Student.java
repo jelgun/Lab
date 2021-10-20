@@ -32,4 +32,9 @@ throw new Exception("There is no student with the given name!");
 }
 return result;
 }
+
+public int fff(){
+    return 0;
+}
+//commenet for changes
 }
