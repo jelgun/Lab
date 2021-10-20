@@ -20,6 +20,7 @@ public Student findOne(ArrayList<Student> students, String name) throws Exceptio
 	throw new Exception("There is no student with the given name!");
 }
 
+//adasdasdas
 public ArrayList<Student> findAll(ArrayList<Student> students, String name) throws
 Exception {
 	ArrayList<Student> result = new ArrayList<Student>();
