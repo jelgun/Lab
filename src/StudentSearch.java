@@ -15,7 +15,7 @@ public class StudentSearch {
 		for (Student student: students)
 			if (student.getName().equals(name))
 				return student;
-			
+
 		throw new Exception("There is no student with the given name!");
 	}
 
