@@ -12,3 +12,6 @@ public class StudentSearch {
         return false;
     }
 }
+find one methodu(){
+    bla bla bla;
+}
