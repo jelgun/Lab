@@ -9,7 +9,7 @@ System.out.println(search.findOne(students, "student1").getId());
 } catch (Exception e) {
 System.out.println(e.getMessage());
 }
-int x = 55;
+int x = 45;
 
 }
 //BORA DENEME
