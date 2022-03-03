@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Student {
     private String name;
     private String id;
@@ -19,5 +21,11 @@ public class Student {
 
     public String getEmail() {
         return this.email;
+    }
+    public Student findOne(ArrayList<Student> students, String name) throws Exception {
+        for (Student student: students)
+            if (student.getName().equals(name))
+                return student;
+        throw new Exception("There is no student with the given name!");
     }
 }
